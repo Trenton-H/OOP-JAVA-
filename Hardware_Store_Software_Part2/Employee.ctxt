@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Employee
+comment0.text=\r\n\ Holds\ and\ allows\ modification\ of\ Employee\ data\r\n\ subclass\ of\ User\ \r\n
+comment1.params=
+comment1.target=Employee()
+comment1.text=\r\n\ default\ constructor\ for\ Employee\ Class\r\n
+comment2.params=id\ f\ l\ life\ s
+comment2.target=Employee(java.lang.Integer,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ float)
+comment2.text=\r\n\ Paramatarized\ constructor\ for\ Employee\ Class\r\n\ @param\ id\ temp\ variable\ to\ set\ Employee\ ID\ in\ User\r\n\ @param\ f\ temp\ variable\ to\ set\ first\ name\ in\ User\r\n\ @param\ l\ temp\ variable\ to\ set\ last\ name\ in\ User\r\n\ @param\ life\ temp\ variable\ to\ set\ SSN\r\n\ @param\ s\ temp\ variable\ to\ set\ Salary\r\n
+comment3.params=life
+comment3.target=void\ setSSN(java.lang.String)
+comment3.text=\r\n\ SSN\ setter\r\n\ @param\ life\ temp\ variable\ to\ set\ SSN\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSSN()
+comment4.text=\r\n\ SSN\ getter\ to\ return\ SSN\ of\ instance\r\n
+comment5.params=s
+comment5.target=void\ setSalary(float)
+comment5.text=\r\n\ Salary\ setter\r\n\ @param\ s\ temp\ variable\ to\ set\ Salary\r\n
+comment6.params=
+comment6.target=float\ getSalary()
+comment6.text=\r\n\ Salary\ getter\ to\ return\ salary\ of\ instance\r\n
+numComments=7

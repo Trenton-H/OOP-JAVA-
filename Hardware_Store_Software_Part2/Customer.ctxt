@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\r\n\ Subclass\ to\ User.\ Used\ to\ manage\ the\ number\ and\ address\r\n\ to\ customers.\r\n
+comment1.params=
+comment1.target=Customer()
+comment1.text=\r\n\ Customer's\ default\ constructor\ to\ initialize\ the\ values\r\n\ of\ ID,\ firstName,\ lastName,\ number\ and\ address\r\n
+comment2.params=i\ f\ l\ n\ a
+comment2.target=Customer(java.lang.Integer,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Customer's\ paramatarized\ constructor\ to\ initialize\ the\ values\r\n\ of\ ID,\ firstName,\ lastName,\ number\ and\ address\r\n\ @param\ i\ temp\ variable\ to\ initialize\ ID\r\n\ @param\ f\ temp\ variable\ to\ initialize\ firstName\r\n\ @param\ l\ temp\ variable\ to\ initialize\ lastName\r\n\ @param\ n\ temp\ variable\ to\ initialize\ number\r\n\ @param\ a\ temp\ variable\ to\ initialize\ address\r\n
+comment3.params=n
+comment3.target=void\ setNumber(java.lang.String)
+comment3.text=\r\n\ number\ setter\ to\ pass\ values\ to\ the\ number\ variable\ \r\n\ @param\ n\ temp\ variable\ to\ pass\ to\ number\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNumber()
+comment4.text=\r\n\ number\ getter\ to\ return\ the\ number\ variable\ \r\n
+comment5.params=a
+comment5.target=void\ setAddress(java.lang.String)
+comment5.text=\r\n\ address\ setter\ to\ pass\ values\ to\ the\ number\ variable\ \r\n\ @param\ a\ temp\ variable\ to\ pass\ to\ number\r\n
+comment6.params=
+comment6.target=java.lang.String\ getAddress()
+comment6.text=\r\n\ number\ getter\ to\ return\ the\ number\ variable\ \r\n
+numComments=7

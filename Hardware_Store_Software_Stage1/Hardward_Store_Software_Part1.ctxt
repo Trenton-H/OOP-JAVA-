@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Hardward_Store_Software_Part1
+comment0.text=\r\n\ Controls\ the\ files\ modification,\ menu,\ all\ the\ functions\ the\ modify\ the\ \r\n\ items\ on\ the\ inventory\ and\ inventory\ itself.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Reads\ in\ the\ inventory\ file,\ directs\ the\ menu,\ and\ writes\ back\ to\r\n\ the\ inventory\ file\r\n\ @param\ args\ \r\n\ @throws\ Exception\ in\ case\ the\ file\ doesn't\ open\r\n
+comment2.params=list
+comment2.target=void\ displayInventory(java.util.ArrayList)
+comment2.text=\r\n\ Outputs\ the\ item\ inventory\ while\ formating\ it\ for\ the\ user\ to\ read\ easier\r\n
+comment3.params=list
+comment3.target=void\ addToInventory(java.util.ArrayList)
+comment3.text=\r\n\ Checks\ the\ input\ ID\ \#\ against\ the\ inventory\ list,\ if\ its\ there,\ lets\ \r\n\ the\ user\ choose\ the\ complete\ new\ quantity,\ if\ its\ not\ there,\ gathers\r\n\ all\ the\ necessary\ information\ to\ add\ it\ to\ the\ list\r\n\ @param\ list\ the\ arraylist\ to\ the\ item\ inventory\ list.\r\n
+comment4.params=list
+comment4.target=void\ reduceOnHand(java.util.ArrayList)
+comment4.text=\r\n\ Asks\ the\ item\ the\ user\ would\ like\ to\ reduce\ the\ on\ hand\ for,\ Checks\r\n\ that\ the\ item\ is\ on\ the\ inventory\ list,\ then\ allows\ the\ user\ to\r\n\ modify\ the\ inventory.\ Validates\ all\ data.\r\n\ @param\ list\ the\ arraylist\ to\ the\ item\ inventory.\r\n
+comment5.params=list
+comment5.target=void\ itemSearch(java.util.ArrayList)
+comment5.text=\r\n\ Checks\ through\ the\ inventory\ for\ any\ items\ that\ match\ the\ provided\r\n\ item\ or\ partial\ name\ to\ the\ item,\ and\ returns\ the\ current\ on-hands,\r\n\ prices,\ and\ ID\ number.\r\n\ @param\ list\ the\ arraylist\ to\ the\ inventory\ of\ all\ the\ items\r\n
+comment6.params=list
+comment6.target=void\ checkByQuantity(java.util.ArrayList)
+comment6.text=\r\n\ Gathers\ quantity\ input\ from\ user\ and\ outputs\ all\ items,\ and\ their\r\n\ quantities\ for\ what\ is\ equal\ too\ or\ below\ that\ quantity\r\n\ @param\ list\ is\ the\ arraylist\ for\ the\ inventory\ that\ it\ checks\ through\r\n
+numComments=7

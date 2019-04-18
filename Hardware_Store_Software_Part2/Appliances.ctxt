@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Appliances
+comment0.text=\r\n\ Subclass\ to\ Inventory.\ Used\ to\ manage\ appliances\r\n
+comment1.params=
+comment1.target=Appliances()
+comment1.text=\r\n\ Appliances's\ default\ constructor\ to\ initialize\ the\ values\r\n\ of\ ID,\ name,\ quantity,\ price,\ brand,\ and\ type\r\n
+comment2.params=id\ n\ q\ p\ b\ t
+comment2.target=Appliances(java.lang.String,\ java.lang.String,\ java.lang.Integer,\ java.lang.Double,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Appliances's\ paramatarized\ constructor\ to\ initialize\ the\ values\r\n\ of\ ID,\ name,\ quantity,\ price,\ brand,\ and\ type\r\n\ @param\ id\ temp\ variable\ to\ initialize\ ID\r\n\ @param\ n\ temp\ variable\ to\ initialize\ name\r\n\ @param\ q\ temp\ variable\ to\ initialize\ quantity\r\n\ @param\ p\ temp\ variable\ to\ initialize\ price\r\n\ @param\ b\ temp\ variable\ to\ initialize\ brand\r\n\ @param\ t\ temp\ variable\ to\ initialize\ type\r\n
+comment3.params=b
+comment3.target=void\ setBrand(java.lang.String)
+comment3.text=\r\n\ brand\ setter\ to\ pass\ values\ to\ the\ brand\ variable\ \r\n\ @param\ b\ temp\ variable\ to\ pass\ to\ brand\r\n
+comment4.params=
+comment4.target=java.lang.String\ getBrand()
+comment4.text=\r\n\ brand\ getter\ to\ return\ the\ brand\ variable\ \r\n
+comment5.params=t
+comment5.target=void\ setType(java.lang.String)
+comment5.text=\r\n\ type\ setter\ to\ pass\ values\ to\ the\ brand\ variable\ \r\n\ @param\ t\ temp\ variable\ to\ pass\ to\ brand\r\n
+comment6.params=
+comment6.target=java.lang.String\ getType()
+comment6.text=\r\n\ brand\ getter\ to\ return\ the\ brand\ variable\ \r\n
+numComments=7

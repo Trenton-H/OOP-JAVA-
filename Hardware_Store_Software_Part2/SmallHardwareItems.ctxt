@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SmallHardwareItems
+comment0.text=\r\n\ Subclass\ to\ Inventory.\ Used\ to\ manage\ the\ category\ part\r\n\ of\ small\ hardware\ items\r\n
+comment1.params=
+comment1.target=SmallHardwareItems()
+comment1.text=\r\n\ SmallHardwareItems's\ default\ constructor\ to\ initialize\ the\ values\r\n\ of\ ID,\ name,\ quantity,\ price\ and\ category\r\n
+comment2.params=id\ n\ q\ p\ c
+comment2.target=SmallHardwareItems(java.lang.String,\ java.lang.String,\ java.lang.Integer,\ double,\ java.lang.String)
+comment2.text=\r\n\ SmallHardwareItems's\ paramatarized\ constructor\ to\ initialize\ the\ values\r\n\ of\ ID,\ name,\ quantity,\ price\ and\ category\r\n\ @param\ id\ temp\ variable\ to\ initialize\ ID\r\n\ @param\ n\ temp\ variable\ to\ initialize\ name\r\n\ @param\ q\ temp\ variable\ to\ initialize\ quantity\r\n\ @param\ p\ temp\ variable\ to\ initialize\ price\r\n\ @param\ c\ temp\ variable\ to\ initialize\ category\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCategory()
+comment3.text=\r\n\ returns\ category\ associated\ with\ the\ item\r\n\ @return\ associated\ category\ of\ an\ item\r\n
+comment4.params=c
+comment4.target=void\ setCategory(java.lang.String)
+comment4.text=\r\n\ defines\ category\ as\ a\ temp\ variable\ c\ that\ is\ passed\ to\ it\r\n\ @param\ c\ is\ the\ category\ associated\ with\ the\ item\r\n
+numComments=5
