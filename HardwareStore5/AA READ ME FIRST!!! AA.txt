@@ -1,0 +1,13 @@
+What I have for the Assignment 5...to make it faster grading for you... also wrong everything in MainApp
+-Find Item
+-Remove Item
+-Add Item (says container can't open it parent couldn't figure out why?)
+-main menu
+     a. Would have set it up with a ComboBox to swap between 3 menus, but didn't figure out how to really use 
+	combobox till as I'm turning it in. 
+
+Didn't overly have time for the rest due to 6 classes and work... So I'll live with whatever grade, but
+can you tell me what I did wrong with the add item function... I'm curious as to why it didn't work. Thanks!
+
+Also couldn't figure out how to get the arraylist item to change to a vector... kept crashing... I have all my code there commented out
+If you can explain that too?? If not I'm fine on that one, since im more curious about the item one so! Thanks in advance!

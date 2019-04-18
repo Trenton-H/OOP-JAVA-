@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=idNumber\ name\ quantity\ price
+comment1.target=Item(java.lang.String,\ java.lang.String,\ int,\ float)
+comment1.text=\r\n\ This\ constructor\ initializes\ the\ item\ object.\ The\ constructor\ provides\ no\r\n\ user\ input\ validation.\ That\ should\ be\ handled\ by\ the\ class\ that\ creates\ a\r\n\ item\ object.\r\n\r\n\ @param\ idNumber\ a\ <b><CODE>String</CODE></b>\ that\ represents\ the\ ID\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ random\ string\ of\ length\ 5\ \u2013\ can\ contain\ letters\ and\ numbers\r\n\ @param\ name\ a\ <b><CODE>String</CODE></b>\ that\ represents\ the\ name\r\n\ @param\ price\ an\ <b><CODE>float</CODE></b>\ that\ represents\ the\ price\r\n
+comment2.params=
+comment2.target=java.lang.String\ getIdNumber()
+comment2.text=\r\n\ This\ method\ returns\ the\ item's\ tracking\ number.\r\n\r\n\ @return\ a\ <b><CODE>String</CODE></b>\ that\ is\ the\ ID\ number\ of\ the\ item.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ This\ method\ returns\ the\ item's\ name.\r\n\r\n\ @return\ a\ <b><CODE>String</CODE></b>\ that\ is\ the\ item's\ name.\r\n
+comment4.params=
+comment4.target=int\ getQuantity()
+comment4.text=\r\n\ This\ method\ returns\ the\ item's\ quantity.\r\n\r\n\ @return\ an\ <b><CODE>int</CODE></b>\ that\ is\ the\ item's\ weight\r\n
+comment5.params=quantity
+comment5.target=void\ setQuantity(int)
+comment5.text=\r\n\ This\ method\ set\ the\ item's\ quantity.\r\n\r\n\ \ @param\ quantity\ a\ <b><CODE>int</CODE></b>\ that\ represents\ the\ quantity\r\n
+comment6.params=
+comment6.target=float\ getPrice()
+comment6.text=\r\n\ This\ method\ returns\ the\ item's\ price.\r\n\r\n\ @return\ a\ <b><CODE>float</CODE></b>\ that\ is\ the\ item's\ price\r\n
+comment7.params=c
+comment7.target=boolean\ equals(hardwarestore.items.Item)
+comment7.text=\r\n\ This\ method\ provides\ a\ way\ to\ compare\ two\ item\ objects.\r\n\r\n\ @param\ c\ a\ <b><CODE>Item</CODE></b>\ object\ that\ is\ used\ to\ compare\ to\r\n\ <b><CODE>this</CODE></b>\ item.\ Two\ orders\ are\ equal\ if\ their\ ID\ is\ the\r\n\ same.\r\n\ @return\ the\ <CODE>boolean</CODE>\ value\ of\ the\ comparison.\r\n
+comment8.params=
+comment8.target=java.lang.String\ getFormattedText()
+comment8.text=\r\n\ Abstract\ print\ method,\ to\ be\ implemented\ by\ subclasses\ of\ class\ User.\r\n\ @return\r\n
+numComments=9

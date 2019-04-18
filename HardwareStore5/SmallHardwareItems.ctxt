@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SmallHardwareItems
+comment0.text=\r\n\r\n\ @author\ Junye\ Wen\r\n
+comment1.params=idNumber\ name\ quantity\ price\ category
+comment1.target=SmallHardwareItems(java.lang.String,\ java.lang.String,\ int,\ float,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ initializes\ a\ customer\ object\ with\ the\ provided\ values.\r\n\ @param\ idNumber\r\n\ @param\ name\r\n\ @param\ quantity\r\n\ @param\ price\r\n\ @param\ category\ a\ <b><CODE>String</CODE></b>\ that\ represents\ the\ category.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \u201CDoor&Window",\ \u201CCabinet&\ Furniture",\ \u201CFasteners",\ \u201CStructural",\ \u201COther".\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCategory()
+comment2.text=\r\n\ Get\ the\ category.\r\n\ @return\ category\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFormattedText()
+comment3.text=\r\n\ Returns\ the\ attributes\ of\ the\ small\ hardware\ item,\ in\ a\ formatted\ text\ fashion.\r\n\ @return\ Formatted\ Text.\r\n
+numComments=4

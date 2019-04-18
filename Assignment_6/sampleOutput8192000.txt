@@ -1,0 +1,49 @@
+//6 year old 4 core laptop...
+
+1 Thread:
+      1000 elements  =>       6 ms 
+      2000 elements  =>       0 ms 
+      4000 elements  =>       1 ms 
+      8000 elements  =>       4 ms 
+     16000 elements  =>       8 ms 
+     32000 elements  =>      10 ms 
+     64000 elements  =>      38 ms 
+    128000 elements  =>      69 ms 
+    256000 elements  =>     126 ms 
+    512000 elements  =>     256 ms 
+   1024000 elements  =>     648 ms 
+   2048000 elements  =>    1291 ms 
+   4096000 elements  =>    2844 ms 
+   8192000 elements  =>   11470 ms 
+
+2 Thread:
+      1000 elements  =>       6 ms 
+      2000 elements  =>       3 ms 
+      4000 elements  =>       2 ms 
+      8000 elements  =>       3 ms 
+     16000 elements  =>       7 ms 
+     32000 elements  =>       9 ms 
+     64000 elements  =>      20 ms 
+    128000 elements  =>      88 ms 
+    256000 elements  =>      68 ms 
+    512000 elements  =>     169 ms 
+   1024000 elements  =>     383 ms 
+   2048000 elements  =>     834 ms 
+   4096000 elements  =>    2072 ms 
+   8192000 elements  =>    9103 ms 
+
+4 Thread:
+      1000 elements  =>       2 ms 
+      2000 elements  =>      44 ms 
+      4000 elements  =>       3 ms 
+      8000 elements  =>       4 ms 
+     16000 elements  =>       7 ms 
+     32000 elements  =>      16 ms 
+     64000 elements  =>      25 ms 
+    128000 elements  =>      36 ms 
+    256000 elements  =>      72 ms 
+    512000 elements  =>     143 ms 
+   1024000 elements  =>     304 ms 
+   2048000 elements  =>     711 ms 
+   4096000 elements  =>    1712 ms 
+   8192000 elements  =>    8979 ms 

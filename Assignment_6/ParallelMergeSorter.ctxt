@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ParallelMergeSorter
+comment0.text=\r\n\ This\ class\ carries\ out\ the\ merge\ sort\ algorithm.\r\n
+comment1.params=a\ ap\ comp
+comment1.target=void\ sort(java.lang.Object[],\ int,\ java.util.Comparator)
+comment1.text=\r\n\ Sorts\ an\ array,\ using\ the\ merge\ sort\ algorithm.\r\n\r\n\ @param\ a\ the\ array\ to\ sort\r\n\ @param\ ap\ the\ available\ processors\ to\ create\ the\ threads\r\n\ @param\ comp\ the\ comparator\ to\ compare\ array\ elements\r\n
+comment2.params=a\ from\ to\ comp
+comment2.target=void\ mergeSort(java.lang.Object[],\ int,\ int,\ java.util.Comparator)
+comment2.text=\r\n\ Sorts\ a\ range\ of\ an\ array,\ using\ the\ merge\ sort\ algorithm.\r\n\r\n\ @param\ a\ the\ array\ to\ sort\r\n\ @param\ from\ the\ first\ index\ of\ the\ range\ to\ sort\r\n\ @param\ to\ the\ last\ index\ of\ the\ range\ to\ sort\r\n\ @param\ comp\ the\ comparator\ to\ compare\ array\ elements\r\n
+comment3.params=a\ from\ to\ availableThreads\ comp
+comment3.target=void\ parallelMergeSort(java.lang.Object[],\ int,\ int,\ int,\ java.util.Comparator)
+comment3.text=\r\n\ Breaks\ down\ the\ array\ into\ sub-parts,\ and\ puts\ them\ into\ threads\r\n\ in\ order\ to\ be\ sorted\ quicker,\ depending\ on\ the\ available\ threads\r\n\r\n\ @param\ a\ the\ array\ to\ sort\r\n\ @param\ from\ the\ first\ index\ of\ the\ range\ to\ sort\r\n\ @param\ to\ the\ last\ index\ of\ the\ range\ to\ sort\r\n\ @param\ availableThreads\ the\ number\ of\ threads\ available\ to\ use\r\n\ @param\ comp\ the\ comparator\ to\ compare\ array\ elements\r\n
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ run()
+comment6.params=a\ from\ mid\ to\ comp
+comment6.target=void\ merge(java.lang.Object[],\ int,\ int,\ int,\ java.util.Comparator)
+comment6.text=\r\n\ Merges\ two\ adjacent\ subranges\ of\ an\ array\r\n\r\n\ @param\ a\ the\ array\ with\ entries\ to\ be\ merged\r\n\ @param\ from\ the\ index\ of\ the\ first\ element\ of\ the\ first\ range\r\n\ @param\ mid\ the\ index\ of\ the\ last\ element\ of\ the\ first\ range\r\n\ @param\ to\ the\ index\ of\ the\ last\ element\ of\ the\ second\ range\r\n\ @param\ comp\ the\ comparator\ to\ compare\ array\ elements\r\n
+numComments=7

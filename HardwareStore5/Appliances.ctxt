@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Appliances
+comment0.text=\r\n\r\n\ @author\ Junye\ Wen\r\n
+comment1.params=idNumber\ name\ quantity\ price\ brand\ type
+comment1.target=Appliances(java.lang.String,\ java.lang.String,\ int,\ float,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ initializes\ a\ customer\ object\ with\ the\ provided\ values.\r\n\ @param\ idNumber\r\n\ @param\ name\r\n\ @param\ quantity\r\n\ @param\ price\r\n\ @param\ brand\r\n\ @param\ type\ a\ <b><CODE>String</CODE></b>\ that\ represents\ the\ type.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "Refrigerators",\ "Washers&Dryers",\ "Ranges&Ovens",\ "Small\ Appliance".\r\n
+comment2.params=
+comment2.target=java.lang.String\ getBrand()
+comment2.text=\r\n\ Get\ the\ brand.\r\n\ @return\ brand\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ Get\ the\ type.\r\n\ @return\ type\r\n
+comment4.params=
+comment4.target=java.lang.String\ getFormattedText()
+comment4.text=\r\n\ Returns\ the\ attributes\ of\ the\ appliance,\ in\ a\ formatted\ text\ fashion.\r\n\ @return\ Formatted\ Text.\r\n
+numComments=5

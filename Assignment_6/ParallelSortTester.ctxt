@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ParallelSortTester
+comment0.text=\r\n\r\n\ @author\ Trenton\ Hohle\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ runSortTester()
+comment3.params=d1\ d2
+comment3.target=int\ compare(java.lang.Integer,\ java.lang.Integer)
+comment4.params=a\ comp
+comment4.target=boolean\ isSorted(java.lang.Object[],\ java.util.Comparator)
+comment4.text=\r\n\ Returns\ true\ if\ the\ given\ array\ is\ in\ sorted\ ascending\ order.\r\n\r\n\ @param\ a\ the\ array\ to\ examine\r\n\ @param\ comp\ the\ comparator\ to\ compare\ array\ elements\r\n\ @return\ true\ if\ the\ given\ array\ is\ sorted,\ false\ otherwise\r\n
+comment5.params=a
+comment5.target=void\ shuffle(java.lang.Object[])
+comment6.params=a\ i\ j
+comment6.target=void\ swap(java.lang.Object[],\ int,\ int)
+comment7.params=length
+comment7.target=java.lang.Integer[]\ createRandomArray(int)
+numComments=8

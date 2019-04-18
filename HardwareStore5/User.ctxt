@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=User
+comment0.text=\r\n\ User\ is\ a\ superclass\ for\ all\ specific\ types\ of\ actors\ in\ the\ system\r\n\ @author\ Junye\ Wen\r\n
+comment1.params=id\ firstName\ lastName\ isEmployee
+comment1.target=User(int,\ java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Constructor\ initializes\ a\ user\ object\ with\ the\ provided\ values.\r\n\ @param\ id\ User\ ID\r\n\ @param\ firstName\ First\ Name\r\n\ @param\ lastName\ Last\ Name\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLastName()
+comment2.text=\r\n\ Get\ the\ last\ name.\r\n\ @return\ lastName\ Last\ Name\r\n
+comment3.params=lastName
+comment3.target=void\ setLastName(java.lang.String)
+comment3.text=\r\n\ Set\ the\ last\ name.\r\n\ @param\ lastName\ Last\ Name\r\n
+comment4.params=
+comment4.target=int\ getId()
+comment4.text=\r\n\ Get\ the\ user\ ID.\r\n\ @return\ id\r\n
+comment5.params=
+comment5.target=java.lang.String\ getFirstName()
+comment5.text=\r\n\ Get\ the\ first\ name.\r\n\ @return\ firstName\r\n
+comment6.params=firstName
+comment6.target=void\ setFirstName(java.lang.String)
+comment6.text=\r\n\ Set\ the\ first\ name.\r\n\ @param\ firstName\ First\ Name\r\n
+comment7.params=
+comment7.target=java.lang.String\ getFormattedText()
+comment7.text=\r\n\ Abstract\ print\ method,\ to\ be\ implemented\ by\ subclasses\ of\ class\ User.\r\n\ @return\ \r\n
+numComments=8

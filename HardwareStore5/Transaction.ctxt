@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Transaction
+comment0.text=\r\n\ This\ class\ represents\ a\ transaction\ in\ the\ Hardware\ Store\ Software.\r\n\ @author\ Junye\ Wen\r\n
+comment1.params=itemID\ saleDate\ saleQuantity\ customerId\ employeeId
+comment1.target=Transaction(java.lang.String,\ java.util.Date,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ initializes\ a\ SaleTransaction\ object\ with\ the\ provided\ values.\r\n\ @param\ itemID\r\n\ @param\ saleDate\r\n\ @param\ saleQuantity\r\n\ @param\ customerId\r\n\ @param\ employeeId\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemID()
+comment2.text=\r\n\ Get\ the\ item\ ID\ of\ this\ transaction.\r\n\ @return\ itemID\r\n
+comment3.params=
+comment3.target=java.util.Date\ getsaleDate()
+comment3.text=\r\n\ Get\ the\ sale\ date\ of\ this\ transaction.\r\n\ @return\ saleDate\r\n
+comment4.params=
+comment4.target=int\ getSaleQuantity()
+comment4.text=\r\n\ Get\ the\ sale\ quantity\ of\ this\ transaction.\r\n\ @return\ saleQuantity\r\n
+comment5.params=
+comment5.target=int\ getCustomerId()
+comment5.text=\r\n\ Get\ the\ customer\ ID\ of\ this\ transaction.\r\n\ @return\ customerId\r\n
+comment6.params=
+comment6.target=int\ getEmployeeId()
+comment6.text=\r\n\ Get\ the\ employee\ ID\ of\ this\ transaction.\r\n\ @return\r\n
+comment7.params=
+comment7.target=java.lang.String\ getFormattedText()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
